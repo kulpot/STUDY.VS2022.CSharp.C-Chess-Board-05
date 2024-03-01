@@ -59,6 +59,13 @@ namespace C__Chess_Board_02
         private static void printBoard(Board myBoard)
         {
             // print the chess board to the console. Use X for the piece location. + for legal move. . for empty square
+            for (int i = 0; i < myBoard.Size; i++)
+            {
+                for (int j = 0; j < myBoard.Size; j++)
+                {
+
+                }
+            }
         }
         //--------END---------- C# Chess Board 05 print board squares -----------------------------------------------
 
