@@ -58,7 +58,7 @@ namespace C__Chess_Board_02
         //--------START---------- C# Chess Board 05 print board squares -----------------------------------------------
         private static void printBoard(Board myBoard)
         {
-            throw new NotImplementedException();
+            // print the chess board to the console. Use X for the piece location. + for legal move. . for empty square
         }
         //--------END---------- C# Chess Board 05 print board squares -----------------------------------------------
 
