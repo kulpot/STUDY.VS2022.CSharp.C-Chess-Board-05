@@ -18,6 +18,11 @@ using System.Threading.Tasks;
 
 // Add ref to:C# Chess Board 04->Add->Reference...->Projects->ChessBoardModel,
 
+//-------------------- C# Chess Board 05 print board squares -----------------------------------------------
+//ref link:https://www.youtube.com/watch?v=U9dsYjKaEAo&list=PLhPyEFL5u-i0YDRW6FLMd1PavZp9RcYdF&index=6
+
+//
+
 namespace C__Chess_Board_02
 {
     class Program
