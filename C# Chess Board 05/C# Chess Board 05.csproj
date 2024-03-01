@@ -43,11 +43,32 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClassBoardModel\Board.cs" />
+    <Compile Include="ClassBoardModel\Cell.cs" />
+    <Compile Include="ClassBoardModel\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" />
+    <Compile Include="ClassBoardModel\obj\Debug\net8.0\ClassBoardModel.AssemblyInfo.cs" />
+    <Compile Include="ClassBoardModel\obj\Debug\net8.0\ClassBoardModel.GlobalUsings.g.cs" />
+    <Compile Include="ClassBoardModel\obj\Release\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" />
+    <Compile Include="ClassBoardModel\obj\Release\net8.0\ClassBoardModel.AssemblyInfo.cs" />
+    <Compile Include="ClassBoardModel\obj\Release\net8.0\ClassBoardModel.GlobalUsings.g.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="ClassBoardModel\ClassBoardModel.csproj" />
+    <None Include="ClassBoardModel\obj\Debug\net8.0\ClassBoardModel.AssemblyInfoInputs.cache" />
+    <None Include="ClassBoardModel\obj\Debug\net8.0\ClassBoardModel.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="ClassBoardModel\obj\Release\net8.0\ClassBoardModel.AssemblyInfoInputs.cache" />
+    <None Include="ClassBoardModel\obj\Release\net8.0\ClassBoardModel.GeneratedMSBuildEditorConfig.editorconfig" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ClassBoardModel\bin\Debug\net8.0\" />
+    <Folder Include="ClassBoardModel\bin\Release\net8.0\" />
+    <Folder Include="ClassBoardModel\obj\Debug\net8.0\refint\" />
+    <Folder Include="ClassBoardModel\obj\Debug\net8.0\ref\" />
+    <Folder Include="ClassBoardModel\obj\Release\net8.0\refint\" />
+    <Folder Include="ClassBoardModel\obj\Release\net8.0\ref\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
