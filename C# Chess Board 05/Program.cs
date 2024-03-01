@@ -21,7 +21,7 @@ using System.Threading.Tasks;
 //-------------------- C# Chess Board 05 print board squares -----------------------------------------------
 //ref link:https://www.youtube.com/watch?v=U9dsYjKaEAo&list=PLhPyEFL5u-i0YDRW6FLMd1PavZp9RcYdF&index=6
 
-//
+// PrintBoard method,
 
 namespace C__Chess_Board_02
 {
@@ -36,7 +36,9 @@ namespace C__Chess_Board_02
             //-------START----------- C# Chess Board 04 program flow -------------------------------------------------
 
             // show the empty chess board
-
+            //--------START---------- C# Chess Board 05 print board squares -----------------------------------------------
+            printBoard(myBoard);
+            //--------END---------- C# Chess Board 05 print board squares -----------------------------------------------
 
             // ask the user for an x and y coordinate where we will place a piece
 
@@ -52,5 +54,13 @@ namespace C__Chess_Board_02
             //--------END---------- C# Chess Board 04 program flow -------------------------------------------------
 
         }
+
+        //--------START---------- C# Chess Board 05 print board squares -----------------------------------------------
+        private static void printBoard(Board myBoard)
+        {
+            throw new NotImplementedException();
+        }
+        //--------END---------- C# Chess Board 05 print board squares -----------------------------------------------
+
     }
 }
