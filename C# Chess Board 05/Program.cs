@@ -79,6 +79,8 @@ namespace C__Chess_Board_02
                     }
                 }
             }
+
+            Console.WriteLine("====================================");
         }
         //--------END---------- C# Chess Board 05 print board squares -----------------------------------------------
 
