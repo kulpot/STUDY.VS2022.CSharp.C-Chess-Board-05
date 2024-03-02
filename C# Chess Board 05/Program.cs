@@ -67,7 +67,11 @@ namespace C__Chess_Board_02
 
                     if(c.CurrentlyOccupied == true)
                     {
-                        Console.WriteLine("X");
+                        Console.Write("X");
+                    }
+                    else if(c.LegalNextMove == true)
+                    {
+                        Console.Write("+");
                     }
                 }
             }
