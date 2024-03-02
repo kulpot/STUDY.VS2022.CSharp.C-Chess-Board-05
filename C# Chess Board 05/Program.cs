@@ -28,7 +28,7 @@ namespace C__Chess_Board_02
     class Program
     {
         //--------START---------- C# Chess Board 04 program flow -------------------------------------------------
-        Board myBoard = new Board(8);
+        static Board myBoard = new Board(8);
         //--------END---------- C# Chess Board 04 program flow -------------------------------------------------
 
         static void Main(string[] args)
