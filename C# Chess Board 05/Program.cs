@@ -73,6 +73,10 @@ namespace C__Chess_Board_02
                     {
                         Console.Write("+");
                     }
+                    else
+                    {
+                        Console.Write(".");
+                    }
                 }
             }
         }
