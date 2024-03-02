@@ -64,6 +64,11 @@ namespace C__Chess_Board_02
                 for (int j = 0; j < myBoard.Size; j++)
                 {
                     Cell c = myBoard.theGrid[i, j];
+
+                    if(c.CurrentlyOccupied == true)
+                    {
+                        Console.WriteLine("X");
+                    }
                 }
             }
         }
