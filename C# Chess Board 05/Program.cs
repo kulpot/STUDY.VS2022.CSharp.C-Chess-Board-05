@@ -50,6 +50,9 @@ namespace C__Chess_Board_02
 
 
             // wait for another enter key press before ending the program.
+            //--------START---------- C# Chess Board 05 print board squares -----------------------------------------------
+            Console.ReadLine();
+            //--------END---------- C# Chess Board 05 print board squares -----------------------------------------------
 
             //--------END---------- C# Chess Board 04 program flow -------------------------------------------------
 
