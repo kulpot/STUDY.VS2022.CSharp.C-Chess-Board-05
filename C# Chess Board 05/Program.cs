@@ -81,7 +81,7 @@ namespace C__Chess_Board_02
                         Console.Write(".");
                     }
                 }
-                Console.WriteLine();
+                Console.WriteLine();        // this makes a grid of 8x8 of periods.
             }
 
             Console.WriteLine("====================================");
