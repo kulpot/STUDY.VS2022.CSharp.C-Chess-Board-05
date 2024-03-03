@@ -81,6 +81,7 @@ namespace C__Chess_Board_02
                         Console.Write(".");
                     }
                 }
+                Console.WriteLine();
             }
 
             Console.WriteLine("====================================");
